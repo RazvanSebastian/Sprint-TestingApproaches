@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS items (
+   id INT  NOT NULL IDENTITY,
+   name VARCHAR (45),
+   value VARCHAR (45),      
+   PRIMARY KEY (ID)
+); 
